@@ -52,3 +52,9 @@ sidebar__search{
     font-size: 24px !important;
 }
 
+.sidebar__chats{
+    background-color: white;
+    flex: 1;
+    overflow: scroll;
+}
+

@@ -5,6 +5,7 @@ import MoreVertIcon from '@mui/icons-material/MoreVert';
 import React from 'react'
 import './Sidebar.css'
 import { SearchOutlined } from '@mui/icons-material';
+import SidebarChat from './SidebarChat';
 
 function Sidebar() {
   return (
@@ -32,13 +33,11 @@ function Sidebar() {
       </div>
 
       <div className="sidebar__chats">
-        <h1>sidebar chat</h1>
-        <h1>sidebar chat</h1>
-        <h1>sidebar chat</h1>
-        <h1>sidebar chat</h1>
-        <h1>sidebar chat</h1>
-        <h1>sidebar chat</h1>
-        <h1>sidebar chat</h1>
+        <SidebarChat />
+        <SidebarChat />
+        <SidebarChat />
+        <SidebarChat />
+       
       </div>
     </div>
   )
