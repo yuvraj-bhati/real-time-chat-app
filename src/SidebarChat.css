@@ -20,3 +20,8 @@
     margin-left: 15px;
 }
 
+a{
+    text-decoration: none !important;
+    color: black;
+}
+

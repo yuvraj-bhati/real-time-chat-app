@@ -4,7 +4,7 @@
     flex-direction: column;
 }
 
-sidebar__search{
+.sidebar__search{
     display: flex;
     align-items: center;
     background-color: #f6f6f6;
